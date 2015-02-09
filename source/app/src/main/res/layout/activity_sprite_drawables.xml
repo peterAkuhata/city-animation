@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageViewCloud"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageViewHotAirBalloon"
+        android:layout_alignTop="@+id/imageViewCloud"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="325dp"
+        android:id="@+id/imageViewSkyTower"
+        android:layout_alignTop="@+id/imageViewCloud"
+        android:layout_toRightOf="@+id/imageViewCloud"
+        android:layout_toEndOf="@+id/imageViewCloud"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="46dp"
+        android:id="@+id/imageViewBigTree"
+        android:layout_alignTop="@+id/imageViewCloud"
+        android:layout_toLeftOf="@+id/imageViewCloud"
+        android:layout_toStartOf="@+id/imageViewCloud"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="152dp"
+        android:id="@+id/imageViewSmallBuilding"
+        android:layout_below="@+id/imageViewHotAirBalloon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="234dp"
+        android:id="@+id/imageViewSkyScraper"
+        android:layout_below="@+id/imageViewHotAirBalloon"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:id="@+id/imageViewShop"
+        android:layout_above="@+id/imageViewSkyScraper"
+        android:layout_alignLeft="@+id/imageViewBigTree"
+        android:layout_alignStart="@+id/imageViewBigTree"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="64dp"
+        android:id="@+id/imageViewFourSquare"
+        android:layout_below="@+id/imageViewShop"
+        android:layout_toRightOf="@+id/imageViewSkyScraper"
+        android:layout_toEndOf="@+id/imageViewSkyScraper"
+        android:layout_marginTop="32dp"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="39dp"
+        android:id="@+id/imageViewSmallHouse"
+        android:layout_alignBottom="@+id/imageViewSkyScraper"
+        android:layout_alignLeft="@+id/imageViewFourSquare"
+        android:layout_alignStart="@+id/imageViewFourSquare"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="39dp"
+        android:id="@+id/imageViewFence"
+        android:layout_alignBottom="@+id/imageViewSkyTower"
+        android:layout_alignLeft="@+id/imageViewSmallHouse"
+        android:layout_alignStart="@+id/imageViewSmallHouse"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageViewBigHouse"
+        android:layout_alignTop="@+id/imageViewSkyTower"
+        android:layout_toRightOf="@+id/imageViewSkyTower"
+        android:layout_toEndOf="@+id/imageViewSkyTower"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageViewLittleTrees"
+        android:layout_below="@+id/imageViewBigHouse"
+        android:layout_toEndOf="@+id/imageViewSkyTower"
+        android:layout_toRightOf="@+id/imageViewSkyTower"
+        android:background="#ffffffff" />
+</RelativeLayout>
