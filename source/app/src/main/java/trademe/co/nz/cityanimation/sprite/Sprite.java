@@ -10,7 +10,7 @@ import android.graphics.Rect;
  */
 public abstract class Sprite {
     private Paint paint;
-    protected Rect bounds;
+    private Rect bounds;
 
     public Paint getPaint() {
         return paint;

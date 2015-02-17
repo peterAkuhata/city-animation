@@ -286,6 +286,11 @@ public final class CityDrawable extends Drawable implements Animatable {
     }
 
     @Override
+    public boolean isRunning() {
+        return isAnimating;
+    }
+
+    @Override
     public int getIntrinsicWidth() {
         return 425;
     }
@@ -293,10 +298,5 @@ public final class CityDrawable extends Drawable implements Animatable {
     @Override
     public int getIntrinsicHeight() {
         return 241;
-    }
-
-    @Override
-    public boolean isRunning() {
-        return isAnimating;
     }
 }
