@@ -13,5 +13,8 @@ The interesting aspects of the project are;
 
 The Keynote presentation is included in this repo.
 
-![Screenshot](https://drive.google.com/file/d/0B8xaQpV_Rb2YbTRxSWRUNGd0U3c/view?usp=sharing)
+![Screenshot](http://drive.google.com/uc?export=download&id=0B8xaQpV_Rb2YbTRxSWRUNGd0U3c)
+
+
+
 
